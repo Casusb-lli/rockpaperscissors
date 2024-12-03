@@ -33,8 +33,9 @@ function playRound (humanChoice, computerChoice) {
         (humanChoice === 'Rock' && computerChoice === 'Scissors') ||     
         (humanChoice === 'Paper' && computerChoice === 'Rock') ||
         (humanChoice === 'Scissors' && computerChoice === 'Paper')
-        )   
+        ){   
         return 'human';
+    }
     else {
         return 'computer';
     }
